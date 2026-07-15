@@ -14,7 +14,7 @@ class Config:
     block_size = 128
     n_layer = 4
     n_head = 4
-    n_embd = 160
+    n_embd = 184
     dropout = 0.0
     tie_weights = False   # <- one of many things worth questioning
 def _rope_cache(seq_len, head_dim, device):
